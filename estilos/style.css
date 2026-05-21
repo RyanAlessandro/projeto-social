@@ -6,94 +6,83 @@
         box-sizing:border-box;
     }
 
-body {
+    body {
+      
+      height:100vh;
+      background-image: url('../imagens/fundo-madeira.jpg');
+      background-size: cover;
+      background-position: center;
 
-  height:100vh;
-
-  background-image:url('imagens/fundo-madeira.jpg');
-  background-size:cover;
-  background-position:center;
-
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
 /* celular */
 
-.telefone{
+    .telefone {
 
-  width:311px;
-  height:627px;
+      width:311px;
+      height:627px;
 
-  background-image:url('iphone.png');
-  background-size:100% 100%;
+      background-size:100% 100%;
 
-  position:relative;
-}
+      position:relative;
+
+      }
 
 /* iframe */
 
-iframe{
+    iframe{
 
-  position:absolute;
+    position:center;
 
-  top:80px;
-  left:22px;
+    top:80px;
+    left:22px;
 
-  width:267px;
-  height:471px;
+    width:267px;
+    height: 471px;
 
-  border:none;
-  border-radius:20px;
-}
+    border:none;
+   
+      
+    }
+    
 
 /* menu lateral */
 
-.menu{
+    .menu{
 
-  position:absolute;
+      position:absolute;
 
-  right:30px;
+      top:20px;
+      right:30px;
 
-  display:flex;
-  flex-direction:column;
+      display:flex;
+      flex-direction:column;
 
-  gap:20px;
-}
+      gap:20px;
+    }
 
-.menu img{
+    .menu img{
 
-  width:60px;
-  border-radius:50%;
+      width:60px;
+      border-radius:50%;
 
-  transition:0.3s;
-}
+      transition:0.3s;
+    }
 
-.menu img:hover{
+    .menu img:hover{
 
-  transform:scale(1.1);
-}
+      transform:scale(1.1);
+    }
 
 /* botão */
 
-.botao{
+    .botao{
 
-  position:absolute;
+      position:absolute;
 
-  bottom:30px;
-}
+      bottom:30px;
+    }
 
-.botao a{
-
-  background:white;
-
-  padding:12px 25px;
-
-  border-radius:10px;
-
-  text-decoration:none;
-  color:black;
-
-  font-weight:bold;
-}
